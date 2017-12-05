@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.test.template</groupId>
-    <artifactId>loginTest</artifactId>
+    <artifactId>LoginTest</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
