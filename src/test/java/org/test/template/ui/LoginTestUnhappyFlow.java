@@ -1,4 +1,4 @@
-package org.test.template;
+package org.test.template.ui;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
