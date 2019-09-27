@@ -1,9 +1,9 @@
-package org.test.template;
+package org.test.template.time.doctor;
 
 import io.restassured.response.ValidatableResponse;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import org.test.template.data.TestData;
+import org.test.template.time.doctor.data.TestData;
 import sun.security.util.PendingException;
 
 import static io.restassured.RestAssured.given;

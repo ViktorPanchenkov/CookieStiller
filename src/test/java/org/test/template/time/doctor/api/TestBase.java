@@ -1,6 +1,6 @@
-package org.test.template.api;
+package org.test.template.time.doctor.api;
 
-import org.test.template.ApiHelper;
+import org.test.template.time.doctor.ApiHelper;
 
 public class TestBase {
 
