@@ -1,4 +1,4 @@
-package org.test.template.ui;
+package org.test.template.time.doctor.ui.tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -20,8 +20,9 @@ public class TestBase {
 
     static ChromeDriverService service;
     static WebDriver driver;
-    private final static String PATH_TO_CHROMEDRIVER = "c:\\work\\chromedrv\\chromedriver_2_31.exe"; //move to properties TODO
+    private final static String PATH_TO_CHROMEDRIVER = "C:\\chromedriver_win32\\chromedriver.exe"; //move to properties TODO
 
+    final static String MAIN_PAGE_URL = "https://www.timedoctor.com/ru/about-us.html";
     final static String VALID_LOGIN = "angeleclipse3@gmail.com";
     final static String VALID_PASSWORD = "testpass";
 
@@ -42,6 +43,10 @@ public class TestBase {
             logger.error("Unable to start service: " + e.getMessage());
             System.exit(1);
         }
+    }
+
+    public void moveToStartPage() {
+        driver.get(MAIN_PAGE_URL);
     }
 
     public Map setTestCaseStatus(boolean testResult) {
@@ -100,4 +105,6 @@ public class TestBase {
 
         signIn_el.click();
     }
+
+
 }

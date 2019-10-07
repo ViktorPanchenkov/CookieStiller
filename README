@@ -1,0 +1,9 @@
+This project has two independent parts:
+
+1. i.ua portal
+Used: Cucumber, PageFactory.
+loginTest.feature contains example of using steps with parameters of Cucumber data provider.
+
+2. TimeDoctor
+Used TestNg.
+LoginTestUnhappyFlow.java contains example of TestNG's data provider

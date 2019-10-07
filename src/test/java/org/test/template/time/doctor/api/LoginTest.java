@@ -1,6 +1,5 @@
-package org.test.template.api;
+package org.test.template.time.doctor.api;
 
-import org.test.template.ApiHelper;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;

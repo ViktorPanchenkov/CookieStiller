@@ -1,4 +1,4 @@
-package org.test.template.ui;
+package org.test.template.time.doctor.ui.tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -17,7 +17,7 @@ public class LoginTestUnhappyFlow extends TestBase {
     @BeforeTest
     public void setupPage() throws InterruptedException {
         logger.info("Begin test");
-        //moveToStartPage();
+        moveToStartPage();
         Assert.assertEquals(driver.getTitle(), "Мониторинг персонала. Узнайте о нас - Тайм Доктор");
         WebElement el = driver.findElement(By.id("sign-in"));
         click(el);
@@ -41,7 +41,8 @@ public class LoginTestUnhappyFlow extends TestBase {
                 { "angeleclipse3@gmail.com", "" },
                 { "angeleclipse3@gmail.com", "“[|]’~<!--@/*$%^&#*/()?>,.*/\\" },
                 { "angeleclipse3@gmail.com",
-                        "asafsfsddddddddddddddddddddkkkkkkkkkkkkkkkkkkkkkkkkkkkkkeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee3333333333333333344444444444" },
+                        "asafsfsddddddddddddddddddddkkkkkkk " +
+                                "kkkkkkkkkkkkkkkkkkkkkkeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee3333333333333333344444444444" },
                 { "angeleclipse3@gmail.com",
                         "testpassssssssssssssssssssssssSSSSSSSSSSSSSSSSSSSSSSSsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss" },
                 { "angeleclipse3@gmail.com", "s" },

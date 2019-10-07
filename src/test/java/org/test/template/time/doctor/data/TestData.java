@@ -1,4 +1,4 @@
-package org.test.template.data;
+package org.test.template.time.doctor.data;
 
 import java.util.HashMap;
 import java.util.Map;
